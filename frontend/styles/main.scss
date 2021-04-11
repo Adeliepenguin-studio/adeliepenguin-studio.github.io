@@ -27,3 +27,29 @@ body {
 		}
 	}
 }
+
+header {
+	.hero {
+		h2 {
+			margin-top: 60px;
+			font-weight: 700;
+			font-size: 45px;
+		}
+
+		p {
+			font-size: 20px;
+			font-weight: 600;
+			color: #636e72;
+		}
+
+		.btn-get-started {
+			background-color: #344357;
+			color: #fff;
+
+			&:hover {
+				background-color: #536c7a;
+				color: #fff;
+			}
+		}
+	}
+}
