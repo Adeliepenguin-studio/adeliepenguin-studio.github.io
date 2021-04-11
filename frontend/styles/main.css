@@ -37,6 +37,12 @@ header .hero p {
   color: #636e72;
 }
 
+/* testing dar mode*/
+.darkmode--activated .hero p, .darkmode--activated li {
+  color: #000;
+}
+/* testing dar mode*/
+
 header .hero .btn-get-started {
   background-color: #344357;
   color: #fff;
