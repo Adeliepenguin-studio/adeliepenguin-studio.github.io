@@ -39,7 +39,7 @@ header .hero p {
 
 /* testing dar mode*/
 .darkmode--activated .hero p, .darkmode--activated li {
-  color: #000;
+  color: #fff;
 }
 /* testing dar mode*/
 
