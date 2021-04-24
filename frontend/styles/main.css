@@ -51,6 +51,10 @@ header .hero .btn-get-started:hover {
   margin-top: 50px;
 }
 
+.section-adels .services {
+  color: #536c7a;
+}
+
 .section-adels .box {
   padding: 50px 30px;
   -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -92,5 +96,18 @@ header .hero .btn-get-started:hover {
 .section-adels .box:hover h4,
 .section-adels .box:hover p {
   color: #fff;
+}
+
+.section-network {
+  padding-top: 135px;
+  padding-bottom: 50px;
+}
+
+.section-network h2 {
+  font-weight: bold;
+}
+
+.section-network img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

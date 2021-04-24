@@ -58,6 +58,10 @@ header {
 .section-adels {
 	margin-top: 50px;
 
+	.services {
+		color: #536c7a;
+	}
+
 	.box {
 		padding: 50px 30px;
 		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -96,5 +100,19 @@ header {
 		p {
 			color: #fff;
 		}
+	}
+}
+
+// Section Partner
+.section-network {
+	padding-top: 135px;
+	padding-bottom: 50px;
+
+	h2 {
+		font-weight: bold;
+	}
+
+	img {
+		max-width: 100%;
 	}
 }
