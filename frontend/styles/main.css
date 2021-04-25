@@ -2,6 +2,10 @@ body {
   background-color: #fff;
 }
 
+.navbar-brand img {
+  max-height: 40px;
+}
+
 .navbar-light .navbar-brand {
   font-weight: 700;
   font-size: 24px;
@@ -23,6 +27,12 @@ body {
   width: 60%;
   padding-bottom: 5px;
   margin-bottom: -8px;
+}
+
+header .hero img {
+  margin-top: 50px;
+  max-height: 460px;
+  width: 100%;
 }
 
 header .hero h2 {
@@ -49,10 +59,32 @@ header .hero .btn-get-started:hover {
 
 .section-adels {
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .section-adels .services {
   color: #536c7a;
+}
+
+.section-adels .services h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #144862;
+}
+
+.section-adels .services h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #1e6c94;
+  bottom: 0;
+  left: calc(50% - 25px);
 }
 
 .section-adels .box {
