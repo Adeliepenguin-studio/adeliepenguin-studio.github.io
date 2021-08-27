@@ -21,9 +21,17 @@
   overflow: overlay;
 }
 
-::placeholder{
-  color: #ff7620;
-  opacity: 1;
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ff7620!important;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ff7620!important;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ff7620!important;
 }
 
  /* width */
@@ -3536,12 +3544,16 @@ fieldset:disabled .btn {
   color: #fff;
   background-color: #ff7620;
   /* border-color: #fff; */
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
 }
 
 .btn-primary:hover {
   color: #fff;
   background-color: #fd6200;
   border-color: #fd6200;
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(255, 132, 55, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(255, 132, 55, 0.25);
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
