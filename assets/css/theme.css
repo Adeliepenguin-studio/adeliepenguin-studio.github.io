@@ -3521,6 +3521,17 @@ fieldset:disabled .btn {
   border-color: #ff7620;
 }
 
+.btn-footer {
+  color: #fff;
+  background-color: #fd6200;
+  /* border-color: #fff; */
+}
+.btn-footer:hover  {
+  color: #fff;
+  background-color: #ff7620;
+  /* border-color: #fff; */
+}
+
 .btn-primary:hover {
   color: #fff;
   background-color: #fd6200;
@@ -17611,8 +17622,8 @@ label {
 }
 
 .bg-primary-gradient {
-  background: -o-linear-gradient(241.82deg, #51B4F7 9.05%, #5A98F2 76.74%);
-  background: linear-gradient(208.18deg, #51B4F7 9.05%, #5A98F2 76.74%);
+  /* background: -o-linear-gradient(241.82deg, #51B4F7 9.05%, #5A98F2 76.74%); */
+  background: #FF7621;
 }
 
 /* -------------------------------------------------------------------------- */
